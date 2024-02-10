@@ -1,0 +1,3 @@
+BCA 1110_UIHMT Mohkhampur_,_102_sector
+BSC 11000_UMT Kuanwala_,_1065_sector
+MCA 10000_UHT Rispana_,_1037_sector
