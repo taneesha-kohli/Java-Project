@@ -1,3 +1,4 @@
+/* Run _1_main.java to see working of this student database project */
 import java.util.Scanner;
 
 public class _1_main {
@@ -7,7 +8,7 @@ public class _1_main {
         faculty f = new faculty();
         university u = new university();
         course c = new course();
-        int choice;
+        int choice;   
         String choice2;
      do 
      {
