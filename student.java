@@ -26,6 +26,8 @@ public class student extends faculty{
          String filename = "student.txt";
         File file = new File(filename);
 
+        System.out.println("\n\n\t\t==================== WELCOME ON REGISTRATION PAGE =====================\n\n");
+
         System.out.println("Enter your name :");
         name = sc.next();
         System.out.println("Enter your id :");
@@ -127,6 +129,9 @@ public class student extends faculty{
     {
         int found =0;
         String Course =" ";
+
+        System.out.println("\n\n\t\t==================== WELCOME ON RECORD PAGE =====================\n\n");
+
         System.out.println("\nEnter your Id to fetch your details ");
         String unique = sc.next();
         String word;
@@ -271,7 +276,8 @@ public class student extends faculty{
         String newCourse;
         int foundId =0,foundroll=0,foundId2=0;
        
-       
+        System.out.println("\n\n\t\t==================== WELCOME ON UPDATE PAGE =====================\n\n");
+
         System.out.println("\nEnter your Id to update your data ");
         String unique = sc.next();
       
@@ -566,6 +572,8 @@ public class student extends faculty{
         String record;
         int foundId=0;
         String line;
+
+        System.out.println("\n\n\t\t==================== WELCOME ON DELETE PAGE =====================\n\n");
 
         System.out.println("\nEnter your Id to delete your data ");
         String unique = sc.next();
