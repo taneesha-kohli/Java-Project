@@ -11,7 +11,7 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.util.Scanner;
 
-public class student extends faculty{
+public class student{
     
     String name;
     String id;
